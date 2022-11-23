@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.burhanrashid52.photoediting"
+4    android:versionCode="7"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission
+11-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:6:5-7:38
+12        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+12-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:6:22-78
+13        android:maxSdkVersion="28" />
+13-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:7:9-35
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.REORDER_TASKS" />
+15-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
+15-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:24:22-69
+16
+17    <application
+17-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:10:5-74:19
+18        android:name="com.burhanrashid52.photoediting.PhotoApp"
+18-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:11:9-64
+19        android:allowBackup="false"
+19-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:12:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a35111252e5ac1986bc1913b5c52b65a\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:fullBackupContent="false"
+22-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:13:9-42
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:15:9-41
+25        android:requestLegacyExternalStorage="true"
+25-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:16:9-52
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:17:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:18:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:19:9-40
+30        <activity
+30-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:23:9-56:20
+31            android:name="com.burhanrashid52.photoediting.EditImageActivity"
+31-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:24:13-77
+32            android:exported="true"
+32-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:27:13-36
+33            android:screenOrientation="portrait"
+33-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:25:13-49
+34            android:theme="@style/AppTheme.NoActionBar" >
+34-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:26:13-56
+35            <intent-filter>
+35-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:28:13-32:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:17-69
+36-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:31:17-77
+38-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:31:27-74
+39            </intent-filter>
+40            <intent-filter
+40-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:34:13-41:29
+41                android:label="@string/app_intent_name"
+41-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:35:17-56
+42                android:scheme="file" >
+42-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:36:17-38
+43                <action android:name="android.intent.action.VIEW" />
+43-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:38:17-69
+43-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:38:25-66
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:39:17-76
+45-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:39:27-73
+46
+47                <data android:mimeType="image/*" />
+47-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:40:17-52
+47-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:40:23-49
+48            </intent-filter>
+49            <intent-filter>
+49-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:43:13-47:29
+50                <action android:name="action_nextgen_edit" />
+50-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:44:17-62
+50-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:44:25-59
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:39:17-76
+52-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:39:27-73
+53
+54                <data android:mimeType="image/*" />
+54-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:40:17-52
+54-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:40:23-49
+55            </intent-filter>
+56            <intent-filter>
+56-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:49:13-53:29
+57                <action android:name="android.intent.action.EDIT" />
+57-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:50:17-69
+57-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:50:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:39:17-76
+59-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:39:27-73
+60
+61                <data android:mimeType="image/*" />
+61-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:40:17-52
+61-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:40:23-49
+62            </intent-filter>
+63        </activity>
+64
+65        <meta-data
+65-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:58:9-60:57
+66            android:name="preloaded_fonts"
+66-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:59:13-43
+67            android:resource="@array/preloaded_fonts" />
+67-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:60:13-54
+68
+69        <provider
+69-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:62:9-72:20
+70            android:name="androidx.core.content.FileProvider"
+70-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:63:13-62
+71            android:authorities="com.burhanrashid52.photoediting.fileprovider"
+71-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:64:13-79
+72            android:exported="false"
+72-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:65:13-37
+73            android:grantUriPermissions="true" >
+73-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:66:13-47
+74            <meta-data
+74-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:68:13-70:54
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:69:17-67
+76                android:resource="@xml/file_paths" />
+76-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:70:17-51
+77        </provider>
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+80            android:authorities="com.burhanrashid52.photoediting.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c50611fa6023ae8c6a605bbff1dd8f42\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e65ccb2d7c69cd806825c42adea86a28\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e65ccb2d7c69cd806825c42adea86a28\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e65ccb2d7c69cd806825c42adea86a28\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+88        </provider>
+89
+90        <activity
+90-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+91            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+91-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+92            android:exported="true"
+92-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+93            android:theme="@android:style/Theme" >
+93-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+94            <intent-filter>
+94-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:17-69
+95-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:25-66
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+99            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+99-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+100            android:exported="true"
+100-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+101            android:theme="@android:style/Theme" >
+101-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+102            <intent-filter>
+102-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:17-69
+103-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:25-66
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+107            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+107-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+108            android:exported="true"
+108-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+109            android:theme="@android:style/Theme.Dialog" >
+109-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+110            <intent-filter>
+110-->[androidx.test:core:1.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed2ce7bdc21bc650492d3a9e394d7240\jetified-core-1.4.0\AndroidManifest.xml:31:13-33:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:17-69
+111-->C:\Users\HP\Downloads\PhotoEditor-master\PhotoEditor-master\app\src\main\AndroidManifest.xml:29:25-66
+112            </intent-filter>
+113        </activity>
+114    </application>
+115
+116</manifest>

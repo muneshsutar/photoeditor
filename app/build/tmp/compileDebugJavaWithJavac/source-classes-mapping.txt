@@ -1,0 +1,2 @@
+com/burhanrashid52/photoediting/BuildConfig.java
+ com.burhanrashid52.photoediting.BuildConfig
